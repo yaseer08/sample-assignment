@@ -1,0 +1,52 @@
+
+.header-wrapper {
+  display: flex;
+  padding: 20px 20px;
+  justify-content: space-between;
+  width: 90%;
+  align-items: flex-end;
+  margin: auto;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.sub-text {
+  font-size: 12px;
+}
+.userList {
+  padding: 0px 0 30px 0;
+}
+
+.card {
+  width: 90%;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding:12px;
+  justify-content: space-between;
+
+}
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%
+}
+.info {
+  flex:10;
+  padding: 0 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  flex:1;
+}
+
+.form-button-container {
+  position: fixed;
+    bottom: 10px;
+}
